@@ -1,4 +1,4 @@
-var FORMMIN = new function () {
+var FORMMIN = function () {
 
     function heading(title, helpText) {
         return div([
