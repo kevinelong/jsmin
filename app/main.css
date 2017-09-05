@@ -1,0 +1,36 @@
+body {
+    color: silver;
+    background: black;
+    font-family: "Helvetica Neue", "Microsoft Sans Serif", sans-serif;
+    padding: 1em;
+}
+
+hr {
+    margin: 0;
+    border: 2px solid silver;
+}
+
+label {
+    display: inline-block;
+    margin: 0 2em 1em 0;
+    vertical-align: top;
+}
+
+label * {
+    display: block;
+}
+
+div div:first-child ,
+label span:first-child {
+    font-size: 1.2em;
+}
+
+div div:last-child ,
+label span:last-child {
+    font-size: 1.1em;
+}
+
+textarea, input[type=text]
+{
+    font-size: 1.3em;
+}

@@ -1,0 +1,25 @@
+<script src="../library/scripts/jsmin/jsmin.js"></script>
+<script>
+
+    load(
+        [
+            '../library/scripts/jsmin/modules/uimin',
+            'main'
+        ],
+        {
+            prefix: '',
+            suffix: '.css',
+            element: 'link',
+            attribute: 'href'
+        }
+    );
+
+
+    load(
+        ['jsmin', 'modules/dommin', 'modules/formmin', 'modules/uimin'],
+        {
+            prefix: '../library/scripts/jsmin/'
+        }
+    );
+    load(['design']);
+</script>
